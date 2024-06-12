@@ -24,7 +24,7 @@ export async function POST(request: Request){
             }, { status: 400 })
         }
 
-        const existingUserByEmail = UserModel.findOne({ email })
+        const existingUserByEmail = await UserModel.findOne({ email })
 
         const verifyCode = Math.floor(100000 + Math.random() * 900000).toString()
 
@@ -34,7 +34,7 @@ export async function POST(request: Request){
                 success: false,
                 message: "User already exist with this email"
             }, { status: 400 })
-           } eles {
+           } else {
             const hashedPassword = await bcrypt.hash(password, 10)
 
             existingUserByEmail.password = hashedPassword;
@@ -92,7 +92,7 @@ export async function POST(request: Request){
 
         
     } catch (error) {
-        console.error("Error registering user", error    
+        console.error("Error registering user", error)   
 
             return Response.json(
             {
@@ -103,6 +103,6 @@ export async function POST(request: Request){
                 status: 500,
             }
         )
-        )
+        
     }
 }
