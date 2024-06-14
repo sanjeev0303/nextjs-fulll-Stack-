@@ -88,7 +88,7 @@ const Page = () => {
         variant: "destructive",
       });
 
-      isSubmitting(false);
+      setIsSubmitting(false);
     }
   };
 
