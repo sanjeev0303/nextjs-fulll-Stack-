@@ -1,0 +1,92 @@
+[
+    {
+        "title": "Awesome Message 1",
+        "content": "Hey, how are you doing today?",
+        "received": "10 minutes ago"
+    },
+    {
+        "title": "Awesome Message 2",
+        "content": "I really liked your recent post!",
+        "received": "2 hours ago"
+    },
+    {
+        "title": "Awesome Message 3",
+        "content": "Do you have any book recommendations?",
+        "received": "1 day ago"
+    },
+    {
+        "title": "Awesome Message 4",
+        "content": "This is a new message",
+        "received": "5 minutes ago"
+    },
+    {
+        "title": "Awesome Message 5",
+        "content": "Another new message",
+        "received": "3 hours ago"
+    },
+    {
+        "title": "Awesome Message 6",
+        "content": "Exciting news!",
+        "received": "1 day ago"
+    },
+    {
+        "title": "Awesome Message 7",
+        "content": "Important update",
+        "received": "1 hour ago"
+    },
+    {
+        "title": "Awesome Message 8",
+        "content": "Check this out",
+        "received": "30 minutes ago"
+    },
+    {
+        "title": "Awesome Message 9",
+        "content": "Interesting article",
+        "received": "2 days ago"
+    },
+    {
+        "title": "Awesome Message 10",
+        "content": "Reminder for tomorrow",
+        "received": "1 week ago"
+    },
+    {
+        "title": "Awesome Message 11",
+        "content": "Don't miss this event",
+        "received": "4 hours ago"
+    },
+    {
+        "title": "Awesome Message 12",
+        "content": "Feedback request",
+        "received": "2 days ago"
+    },
+    {
+        "title": "Awesome Message 13",
+        "content": "Greetings from afar",
+        "received": "1 month ago"
+    },
+    {
+        "title": "Awesome Message 14",
+        "content": "Special announcement",
+        "received": "6 hours ago"
+    },
+    {
+        "title": "Awesome Message 15",
+        "content": "Holiday wishes",
+        "received": "3 days ago"
+    },
+    {
+        "title": "Awesome Message 16",
+        "content": "Product launch update",
+        "received": "1 day ago"
+    },
+    {
+        "title": "Awesome Message 17",
+        "content": "Join us for an event",
+        "received": "2 hours ago"
+    },
+    {
+        "title": "Awesome Message 18",
+        "content": "Latest news alert",
+        "received": "1 hour ago"
+    }
+]

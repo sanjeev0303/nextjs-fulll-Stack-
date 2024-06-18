@@ -31,6 +31,10 @@ const Dashboard = ()=>{
 
     const {data: session} = useSession()
 
+    if (!session) {
+        return <div>Loading...</div>
+    }
+
     const form = useForm({
         resolver:   zodResolver(acceptMessageSchema)
     })
@@ -123,7 +127,20 @@ const Dashboard = ()=>{
         }
     }
 
-    const {username} = session?.user as User
+    // const {username} = session?.user as User
+
+    // const {data: session} = useSession();
+    
+
+    // const {user} = session || {};
+    // const {username} = user || {};
+
+    // console.log(session);
+    
+
+    // if (!username) {
+    //     return <div>Error: Username not found</div>
+    // }
 
     const baseUrl = `${window.location.protocol}//${window.location.host}`
 
